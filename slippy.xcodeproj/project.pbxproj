@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1D85351D006D0B00F584AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D85341D006D0B00F584AF /* AppDelegate.m */; };
+		3E1D85381D006D0B00F584AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D85371D006D0B00F584AF /* main.m */; };
+		3E1D853B1D006D0B00F584AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D853A1D006D0B00F584AF /* ViewController.m */; };
+		3E1D853D1D006D0B00F584AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1D853C1D006D0B00F584AF /* Assets.xcassets */; };
+		3E1D85401D006D0C00F584AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1D853E1D006D0C00F584AF /* Main.storyboard */; };
+		3E1D854B1D006D0C00F584AF /* slippyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D854A1D006D0C00F584AF /* slippyTests.m */; };
+		3E1D85561D006D0C00F584AF /* slippyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1D85551D006D0C00F584AF /* slippyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E1D85471D006D0C00F584AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1D85281D006D0B00F584AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1D852F1D006D0B00F584AF;
+			remoteInfo = slippy;
+		};
+		3E1D85521D006D0C00F584AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1D85281D006D0B00F584AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E1D852F1D006D0B00F584AF;
+			remoteInfo = slippy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E1D85301D006D0B00F584AF /* slippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1D85331D006D0B00F584AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E1D85341D006D0B00F584AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E1D85371D006D0B00F584AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E1D85391D006D0B00F584AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E1D853A1D006D0B00F584AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E1D853C1D006D0B00F584AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E1D853F1D006D0C00F584AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E1D85411D006D0C00F584AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1D85461D006D0C00F584AF /* slippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1D854A1D006D0C00F584AF /* slippyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slippyTests.m; sourceTree = "<group>"; };
+		3E1D854C1D006D0C00F584AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1D85511D006D0C00F584AF /* slippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1D85551D006D0C00F584AF /* slippyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slippyUITests.m; sourceTree = "<group>"; };
+		3E1D85571D006D0C00F584AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E1D852D1D006D0B00F584AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1D85431D006D0C00F584AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1D854E1D006D0C00F584AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1D85271D006D0B00F584AF = {
+			isa = PBXGroup;
+			children = (
+				3E1D85321D006D0B00F584AF /* slippy */,
+				3E1D85491D006D0C00F584AF /* slippyTests */,
+				3E1D85541D006D0C00F584AF /* slippyUITests */,
+				3E1D85311D006D0B00F584AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E1D85311D006D0B00F584AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E1D85301D006D0B00F584AF /* slippy.app */,
+				3E1D85461D006D0C00F584AF /* slippyTests.xctest */,
+				3E1D85511D006D0C00F584AF /* slippyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E1D85321D006D0B00F584AF /* slippy */ = {
+			isa = PBXGroup;
+			children = (
+				3E1D85331D006D0B00F584AF /* AppDelegate.h */,
+				3E1D85341D006D0B00F584AF /* AppDelegate.m */,
+				3E1D85391D006D0B00F584AF /* ViewController.h */,
+				3E1D853A1D006D0B00F584AF /* ViewController.m */,
+				3E1D853C1D006D0B00F584AF /* Assets.xcassets */,
+				3E1D853E1D006D0C00F584AF /* Main.storyboard */,
+				3E1D85411D006D0C00F584AF /* Info.plist */,
+				3E1D85361D006D0B00F584AF /* Supporting Files */,
+			);
+			path = slippy;
+			sourceTree = "<group>";
+		};
+		3E1D85361D006D0B00F584AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E1D85371D006D0B00F584AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E1D85491D006D0C00F584AF /* slippyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E1D854A1D006D0C00F584AF /* slippyTests.m */,
+				3E1D854C1D006D0C00F584AF /* Info.plist */,
+			);
+			path = slippyTests;
+			sourceTree = "<group>";
+		};
+		3E1D85541D006D0C00F584AF /* slippyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E1D85551D006D0C00F584AF /* slippyUITests.m */,
+				3E1D85571D006D0C00F584AF /* Info.plist */,
+			);
+			path = slippyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E1D852F1D006D0B00F584AF /* slippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1D855A1D006D0C00F584AF /* Build configuration list for PBXNativeTarget "slippy" */;
+			buildPhases = (
+				3E1D852C1D006D0B00F584AF /* Sources */,
+				3E1D852D1D006D0B00F584AF /* Frameworks */,
+				3E1D852E1D006D0B00F584AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slippy;
+			productName = slippy;
+			productReference = 3E1D85301D006D0B00F584AF /* slippy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E1D85451D006D0C00F584AF /* slippyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1D855D1D006D0C00F584AF /* Build configuration list for PBXNativeTarget "slippyTests" */;
+			buildPhases = (
+				3E1D85421D006D0C00F584AF /* Sources */,
+				3E1D85431D006D0C00F584AF /* Frameworks */,
+				3E1D85441D006D0C00F584AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E1D85481D006D0C00F584AF /* PBXTargetDependency */,
+			);
+			name = slippyTests;
+			productName = slippyTests;
+			productReference = 3E1D85461D006D0C00F584AF /* slippyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E1D85501D006D0C00F584AF /* slippyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1D85601D006D0C00F584AF /* Build configuration list for PBXNativeTarget "slippyUITests" */;
+			buildPhases = (
+				3E1D854D1D006D0C00F584AF /* Sources */,
+				3E1D854E1D006D0C00F584AF /* Frameworks */,
+				3E1D854F1D006D0C00F584AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E1D85531D006D0C00F584AF /* PBXTargetDependency */,
+			);
+			name = slippyUITests;
+			productName = slippyUITests;
+			productReference = 3E1D85511D006D0C00F584AF /* slippyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E1D85281D006D0B00F584AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Thompson";
+				TargetAttributes = {
+					3E1D852F1D006D0B00F584AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3E1D85451D006D0C00F584AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3E1D852F1D006D0B00F584AF;
+					};
+					3E1D85501D006D0C00F584AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3E1D852F1D006D0B00F584AF;
+					};
+				};
+			};
+			buildConfigurationList = 3E1D852B1D006D0B00F584AF /* Build configuration list for PBXProject "slippy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E1D85271D006D0B00F584AF;
+			productRefGroup = 3E1D85311D006D0B00F584AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E1D852F1D006D0B00F584AF /* slippy */,
+				3E1D85451D006D0C00F584AF /* slippyTests */,
+				3E1D85501D006D0C00F584AF /* slippyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E1D852E1D006D0B00F584AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1D853D1D006D0B00F584AF /* Assets.xcassets in Resources */,
+				3E1D85401D006D0C00F584AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1D85441D006D0C00F584AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1D854F1D006D0C00F584AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E1D852C1D006D0B00F584AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1D853B1D006D0B00F584AF /* ViewController.m in Sources */,
+				3E1D85381D006D0B00F584AF /* main.m in Sources */,
+				3E1D85351D006D0B00F584AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1D85421D006D0C00F584AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1D854B1D006D0C00F584AF /* slippyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E1D854D1D006D0C00F584AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1D85561D006D0C00F584AF /* slippyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E1D85481D006D0C00F584AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E1D852F1D006D0B00F584AF /* slippy */;
+			targetProxy = 3E1D85471D006D0C00F584AF /* PBXContainerItemProxy */;
+		};
+		3E1D85531D006D0C00F584AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E1D852F1D006D0B00F584AF /* slippy */;
+			targetProxy = 3E1D85521D006D0C00F584AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E1D853E1D006D0C00F584AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E1D853F1D006D0C00F584AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E1D85581D006D0C00F584AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E1D85591D006D0C00F584AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E1D855B1D006D0C00F584AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slippy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyforms.slippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E1D855C1D006D0C00F584AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slippy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyforms.slippy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E1D855E1D006D0C00F584AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slippyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyforms.slippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slippy.app/Contents/MacOS/slippy";
+			};
+			name = Debug;
+		};
+		3E1D855F1D006D0C00F584AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slippyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyforms.slippyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/slippy.app/Contents/MacOS/slippy";
+			};
+			name = Release;
+		};
+		3E1D85611D006D0C00F584AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slippyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyforms.slippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slippy;
+			};
+			name = Debug;
+		};
+		3E1D85621D006D0C00F584AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = slippyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.polyforms.slippyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = slippy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E1D852B1D006D0B00F584AF /* Build configuration list for PBXProject "slippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1D85581D006D0C00F584AF /* Debug */,
+				3E1D85591D006D0C00F584AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1D855A1D006D0C00F584AF /* Build configuration list for PBXNativeTarget "slippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1D855B1D006D0C00F584AF /* Debug */,
+				3E1D855C1D006D0C00F584AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E1D855D1D006D0C00F584AF /* Build configuration list for PBXNativeTarget "slippyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1D855E1D006D0C00F584AF /* Debug */,
+				3E1D855F1D006D0C00F584AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E1D85601D006D0C00F584AF /* Build configuration list for PBXNativeTarget "slippyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1D85611D006D0C00F584AF /* Debug */,
+				3E1D85621D006D0C00F584AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E1D85281D006D0B00F584AF /* Project object */;
+}
